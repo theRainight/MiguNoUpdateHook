@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Migu No Update Hook API102</string>
+    <string name="xposed_description">Block Migu update checks with modern libxposed API 102 and static scope.</string>
+</resources>

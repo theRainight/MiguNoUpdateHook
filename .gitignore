@@ -1,0 +1,20 @@
+# Build intermediates
+work/*/build/
+work/MiguNoUpdateHookLocal/
+
+# libxposed dependency (kept locally for builds; not redistributing AAR)
+work/libxposed/api-102.0.0.aar
+work/libxposed/api-aar/
+
+# Android signing sidecar files
+*.idsig
+
+# Local/editor files
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+Desktop.ini
+
+# Keep release APK output in repository for convenience
+!outputs/MiguNoUpdateHook-API102.apk
